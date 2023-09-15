@@ -1,0 +1,34 @@
+:root {
+  // BACKGROUNDS (when dark mode) || ICONS (when thin line icons when light mode)
+  --hd-ref-palette-neutral-obsidian: hsl(0, 0%, 0%); 
+  // BACKGROUNDS ALTERNATIVE when using lighter surfaces (when dark mode) || HEADINGS (when light mode)
+  --hd-ref-palette-neutral-charcoal: hsl(0, 0%, 18%); 
+  // SOME LONGER PARAGRAPH (when light mode)
+  --hd-ref-palette-neutral-ash: hsl(0, 0%, 31%); 
+  // LABELS (when light mode)
+  --hd-ref-palette-neutral-stone: hsl(0, 0%, 43%); 
+  // BACKGROUNDS ALTERNATIVE when using lighter surfaces (when light mode) || HEADINGS (when dark mode)
+  --hd-ref-palette-neutral-paper: hsl(0, 0%, 89%); 
+  // SOME LONGER PARAGRAPH (when dark mode)
+  --hd-ref-palette-neutral-cloud: hsl(0, 0%, 76%); 
+  // LABELS (when dark mode)
+  --hd-ref-palette-neutral-smoke: hsl(0, 0%, 64%); 
+  // BACKGROUNDS (when light mode) || ICONS (when thick icons when dark mode)
+  --hd-ref-palette-neutral-snow: hsl(0, 0%, 100%); 
+  
+  // just in case
+  --hd-ref-palette-neutral-1: hsl(0, 0%, 31%);
+  --hd-ref-palette-neutral-2: hsl(0, 0%, 37%);
+  --hd-ref-palette-neutral-3: hsl(0, 0%, 89%);
+  --hd-ref-palette-neutral-4: hsl(0, 0%, 99%);
+
+  // Accents
+  --hd-ref-palette-hermes-dark: hsl(211, 91%, 40%);
+  --hd-ref-palette-hermes-pure: hsl(211, 91%, 50%); // ONLY 10% OF UI
+  --hd-ref-palette-hermes-light: hsl(211, 91%, 60%);
+  
+  --hd-ref-palette-accent-info: hsl(190, 91%, 50%);
+  --hd-ref-palette-accent-warning: hsl(29, 90%, 50%);
+  --hd-ref-palette-accent-error: hsl(325, 80%, 50%);
+  --hd-ref-palette-accent-success: hsl(172, 71%, 45%);
+}

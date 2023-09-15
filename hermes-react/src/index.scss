@@ -1,0 +1,135 @@
+@import "./assets/scss/palette.scss";
+// @import "typography";
+// @import "colors";
+// @import "shape";
+// @import "motion";
+// @import "state";
+// @import "elevation";
+@import "./assets/scss/theme/light.scss" screen and (prefers-color-scheme: light);
+@import "./assets/scss/theme/dark.scss" screen and (prefers-color-scheme: dark);
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--hd-sys-color-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  // --secondary-color: #28a745;
+  // --text-color: #333;
+  // --border-color: #ccc;
+  // --font-size-small: 1rem;
+  // --font-size-medium: 1.5rem;
+  // --spacing-unit: 1rem;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  height: 100svh; // some weird issues on iOS devices with different browsers
+  width: 100vw;
+  background-color: var(--hd-sys-color-background);
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+
+  /* Keyword values */
+-webkit-overflow-scrolling: auto;
+-webkit-overflow-scrolling: touch;
+
+/* Global values */
+-webkit-overflow-scrolling: inherit;
+-webkit-overflow-scrolling: initial;
+-webkit-overflow-scrolling: revert;
+-webkit-overflow-scrolling: revert-layer;
+-webkit-overflow-scrolling: unset;
+
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+i {
+  font-size: 18px;
+  color: var(--hd-sys-color-icon);
+}
+
+/* Desktop */
+@media (min-width: 767px) {
+  body {
+    padding-bottom: unset;
+  }
+}

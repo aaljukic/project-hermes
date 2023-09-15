@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  # Frontend Clients
+  hermes-react-client:
+    container_name: hermes-react-client
+    build:
+      context: ./hermes-react/
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./hermes-react/src:/app/src
+      - ./hermes-react/public:/app/public
+    restart: always
+    ports:
+      - 3000:3000
+
+volumes:
+  hermes_volume:

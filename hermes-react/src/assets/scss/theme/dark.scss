@@ -1,0 +1,13 @@
+:root {
+  color-scheme: dark;
+  --hd-sys-color-heading: var(--hd-ref-palette-neutral-paper);
+  --hd-sys-color-body: var(--hd-ref-palette-neutral-cloud);
+  --hd-sys-color-label: var(--hd-ref-palette-neutral-smoke);
+  --hd-sys-color-background: var(--hd-ref-palette-neutral-obsidian);
+  --hd-sys-color-surface: var(--hd-ref-palette-neutral-charcoal);
+  --hd-sys-color-icon: var(--hd-ref-palette-neutral-snow);
+  --hd-sys-color-primary: var(--hd-ref-palette-hermes-pure);
+  --hd-sys-color-primary-hover: var(--hd-ref-palette-hermes-light);
+  --hd-sys-color-primary-active: var(--hd-ref-palette-hermes-dark);
+  --hd-sys-color-secondary-info: var(--hd-ref-palette-accent-info);
+}

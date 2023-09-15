@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "dsznajder.es7-react-js-snippets",
+        "team-sapling.sapling",
+        "planbcoding.vscode-react-refactor",
+        "quicktype.quicktype",
+        "hnw.vscode-auto-open-markdown-preview",
+        "aaron-bond.better-comments",
+        "kamikillerto.vscode-colorize",
+        "streetsidesoftware.code-spell-checker",
+        "enkia.tokyo-night",
+        "tal7aouy.icons",
+        "eamodio.gitlens"
+    ]
+}
