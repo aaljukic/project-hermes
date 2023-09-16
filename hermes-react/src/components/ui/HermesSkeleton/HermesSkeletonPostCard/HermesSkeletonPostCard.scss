@@ -1,0 +1,54 @@
+.post-card-skeleton {
+  border: 1px solid var(--hd-sys-color-surface);
+  background-color: var(--hd-sys-color-background);
+  padding: 16px;
+  border-radius: 8px;
+  margin: 0.5rem auto;
+  min-width: 500px;
+  max-width: 600px;
+  min-height: 400px;
+  max-height: 500px;
+  width: 100%;
+
+  .spacer {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  &__header {
+    display: flex;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+    &-details {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+  }
+
+  &__content {
+
+    &-body {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+  }
+}
+
+
+@media (max-width: 767px) {
+  .post-card-skeleton {
+    min-width: 380px;
+  }
+}
+
+@media (max-width: 429px) {
+  .post-card-skeleton {
+    min-width: 320px;
+  }
+}
