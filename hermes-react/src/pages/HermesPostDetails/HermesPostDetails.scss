@@ -1,0 +1,15 @@
+.post-details {
+  display: grid;
+  justify-items: center;
+  gap: 3rem;
+  padding: 0rem 0rem 5rem 0rem;
+
+  .comments-section {
+
+    &__title {
+      margin-bottom: 2rem;
+      font-weight: 600;
+      color: var(--hd-sys-color-heading);
+    }
+  }
+}

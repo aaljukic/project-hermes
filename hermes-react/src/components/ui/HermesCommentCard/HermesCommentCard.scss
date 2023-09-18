@@ -1,0 +1,40 @@
+.comment-card {
+  border: 1px solid var(--hd-sys-color-surface);
+  background-color: var(--hd-sys-color-background);
+  padding: 16px;
+  border-radius: 8px;
+  margin: 0.5rem auto;
+  max-width: 650px;
+  cursor: auto;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    gap: 0.5rem;
+
+    &-details-name {
+      font-size: 16px;
+      font-weight: bold;
+      color: var(--hd-sys-color-heading);
+    }
+
+    &-details-email {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--hd-sys-color-label);
+    }
+  }
+
+  &__content {
+    padding: 0 16px;
+    line-height: 1.4;
+
+    &-body {
+      margin-bottom: 16px;
+      font-size: 14px;
+      color: var(--hd-sys-color-body);
+      text-align: justify;
+    }
+  }
+}
