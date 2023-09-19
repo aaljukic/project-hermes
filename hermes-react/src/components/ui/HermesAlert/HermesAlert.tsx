@@ -4,14 +4,16 @@ import "./HermesAlert.scss"
 
 interface HermesAlertProps {
   isActive: boolean;
-  message: string;
+  renderMessage?: (message: JSX.Element) => JSX.Element;
 }
 
-const HermesAlert = ({ isActive, message }: HermesAlertProps) => {
+const HermesAlert = ({ isActive, renderMessage }: HermesAlertProps) => {
+  const defaultMessage = <span>Sorry</span>;
+
   return (
     <div className={`alert alert-info ${isActive ? 'alert-show' : ''}`}>
       <i className="fa-solid fa-info" />
-      <div>{message}, Not Implemented</div>
+      <div>{renderMessage ? renderMessage(defaultMessage) : defaultMessage}, Not Implemented</div>
     </div>
   )
 }

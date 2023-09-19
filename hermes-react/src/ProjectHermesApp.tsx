@@ -53,7 +53,10 @@ const ProjectHermesApp = () => {
 
   return (
     <div className="layout-container">
-      <HermesAlert isActive={isAlertActive} message={alertMessage.current} />
+      <HermesAlert 
+        isActive={isAlertActive}
+        renderMessage={() => <span>{alertMessage.current}</span>} 
+      />
       <div className="layout-header">
         <img className='logo' src="../logo.png" alt="logo" />
       </div>
