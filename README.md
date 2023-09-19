@@ -57,24 +57,9 @@ This repository contains a `.devcontainer` directory with a `devcontainer.json` 
   ```
 - Visit `localhost:3000`.
 
-
-Certainly! I'll provide a section in the README that explains how to gracefully stop the containers and clean up after running the app:
-
----
-
 ## Stopping the Application and Cleanup
 
-After running the app, you may want to stop the containers and clean up the created networks. Here's how to do it:
-
-1. **Gracefully Stopping the Containers**:
-   
-   If you want to stop the application gracefully, you can use the common interrupt signal by pressing:
-   ```
-   (Ctrl/Command)+C
-   ```
-   This will begin the process of a graceful shutdown. If needed, pressing `(Ctrl/Command)+C` again will force an immediate shutdown.
-
-2. **Removing the Containers and Network**:
+1. **Removing the Containers and Network**:
 
    Once you've stopped the containers, you can remove them and their associated network with the following command:
    ```
